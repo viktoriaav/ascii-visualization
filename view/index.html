@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=i, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/reset.css" type="text/css">
+    <link rel="stylesheet" href="../assets/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>Ascii-art-web</title>
+</head>
+<body>
+    <header><h1>ASCII-ART-WEB</h1></header>
+    <form action="/ascii-art" method="post">
+        <div class="text_style">
+            <div class="text_type_1">
+                <input type="radio" name="text_type" value="Standard" checked>Standard<br>
+             </div>
+             <div class="text_type_2">
+                <input type="radio" name="text_type" value="Shadow">Shadow<br>
+             </div>
+             <div class="text_type_3">
+                <input type="radio" name="text_type" value="Thinkertoy">Thinkertoy<br>
+            </div>
+        </div>
+        <div class="text_area">
+            <textarea required name="inputAscii" id="inputText" placeholder="Type your text here" maxlength="200"></textarea> <br>
+            <button type="submit" class="button-submit">Submit</button>
+         </div>
+    </form>
+</body>
+</html>
